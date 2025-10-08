@@ -19,7 +19,7 @@ header {
 
 .hero {
   min-height: 400px;
-  background: url('images/Screenshot 2025-10-07 140932.png') center/cover no-repeat;
+  background: url('images/background.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,7 @@ header {
 
 .hero-content {
   text-align: center;
+  /* NO background, padding, or border-radius */
 }
 
 .hero-content h1 {
@@ -40,5 +41,3 @@ header {
   font-size: 1.5em;
   margin: 0 0 40px 0;
 }
-
-
