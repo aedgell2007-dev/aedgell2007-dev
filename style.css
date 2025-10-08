@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  width: 192px; /* About 2 inches */
   height: 60px;
   background: #222;
   display: flex;
@@ -18,7 +19,7 @@ header {
 
 .hero {
   min-height: 400px;
-  background: url('images/Screenshot 2025-10-07 140932.png') center/cover no-repeat;
+  background: url('images/background.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,5 +41,13 @@ header {
 .hero-content h2 {
   color: #ddd;
   font-size: 1.5em;
-  margin: 0;
+  margin: 0 0 40px 0;
+}
+
+.middle-section {
+  background: url('images/background.jpg') center/cover no-repeat;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
 }
