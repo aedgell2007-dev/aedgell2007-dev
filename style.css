@@ -63,7 +63,7 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 40px 30px;
-  background-image: url('images/header-bg.jpg'); /* ← Your image path here */
+  background-image: image1.jpg('images/header-bg.jpg'); /* ← Your image path here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
