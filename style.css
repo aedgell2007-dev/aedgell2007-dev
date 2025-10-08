@@ -77,8 +77,3 @@ nav a:hover {
   color: #fff; /* White text for contrast */
   text-shadow: 1px 1px 6px rgba(0,0,0,0.5); /* Makes text stand out */
 }
-.header-logo {
-  height: 50px;
-  width: auto;
-  filter: drop-shadow(1px 1px 3px #222); /* Optional: makes logo stand out */
-}
