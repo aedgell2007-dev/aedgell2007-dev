@@ -57,3 +57,24 @@ nav a:hover {
 #showSecret:hover {
   background: #254b8a;
 }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.header-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.header-logo {
+  height: 50px; /* Adjust size as needed */
+  width: auto;
+}
+Final Example
