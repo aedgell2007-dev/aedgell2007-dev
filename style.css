@@ -62,18 +62,23 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  background-color: #fff;
+  padding: 40px 30px;
+  background-image: url('images/header-bg.jpg'); /* ← Your image path here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-bottom: 2px solid #e5e5e5;
+  position: relative;
+  min-height: 120px;
 }
-
 .header-text {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #fff; /* White text for contrast */
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.5); /* Makes text stand out */
 }
-
 .header-logo {
-  height: 50px; /* Adjust size as needed */
+  height: 50px;
   width: auto;
+  filter: drop-shadow(1px 1px 3px #222); /* Optional: makes logo stand out */
 }
