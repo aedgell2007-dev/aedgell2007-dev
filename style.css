@@ -6,7 +6,7 @@ body {
 header {
   width: 192px; /* About 2 inches */
   height: 60px;
-  background: #222;
+  background: #595959;
   display: flex;
   align-items: center;
 }
