@@ -4,9 +4,9 @@ body {
 }
 
 header {
-  width: 192px; /* About 2 inches */
+  width: 1200px; 
   height: 60px;
-  background: #595959;
+  background: #333333;
   display: flex;
   align-items: center;
 }
