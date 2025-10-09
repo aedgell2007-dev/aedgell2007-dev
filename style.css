@@ -46,6 +46,6 @@ header {
   min-height: 1200px;
   background: #404040;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: left;
 }
