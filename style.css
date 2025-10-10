@@ -42,6 +42,7 @@ header {
 }
 
 .paragraph {
+  font-family: arial, sans-serif;
   min-height: 1200px;
   background: #404040;
   display: flex;
